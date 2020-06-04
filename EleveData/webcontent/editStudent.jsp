@@ -52,17 +52,18 @@ Student s=StudentDao.getRecordById(Integer.parseInt(id));
   <input type="text" name="email"  class="form-control" value="<%= s.getEmail()%>"><br> 
       Gender:<br>
       <div class="radio">
-    <input type="radio" name="gender" value="male" > Male<br>
+    <input type="radio" name="gender" value="homme" > homme<br>
           </div>
                 <div class="radio">
-  <input type="radio" name="gender" value="female" > Female<br>
+  <input type="radio" name="gender" value="femme" >femme<br>
       </div>
       Country:<br>
   <select name="country" >
-  <option value="Iraq">Iraq</option>
-  <option value="Sudan">Sudan</option>
-  <option value="Syria">Syria</option>
-  <option value="Turkey">Turkey</option>
+  <option value="Maroc">Maroc</option>
+  <option value="tunisie">tunisie</option>
+  <option value="france">france</option>
+  <option value="afrique sud">frique sud</option>
+  <option value="autre">autre/option>
 </select>
  
   
