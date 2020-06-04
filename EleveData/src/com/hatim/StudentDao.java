@@ -17,7 +17,7 @@ public class StudentDao {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			String url = "jdbc:mysql://localhost/studentjsp";
-			conn = DriverManager.getConnection(url, "muhammed","muhammed");
+			conn = DriverManager.getConnection(url, "hatim","hatim");
 		} catch (ClassNotFoundException | SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
